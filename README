@@ -1,1 +1,55 @@
-hi
+<h1 align="center" id="title">DATAKAVERSE</h1>
+
+<p align="center"><img src="https://data-ka.com/datakaverse/system/Cira/img/cirahexagono.png" alt="project-image"></p>
+
+<p id="description">Monorepo for Data-ka backend knowledge</p>
+
+<p align="center"><img src="https://img.shields.io/badge/web-brightgreen?link=https%3A%2F%2Fwww.data-ka.com%2F" alt="shields"><img src="https://img.shields.io/badge/contact-contact-blue?link=iker.m%40data-ka.com&amp;link=urko.m%40data-ka.com" alt="shields"><img src="https://img.shields.io/badge/license-red?link=https%3A%2F%2Fwww.data-ka.com%2Flicense" alt="shields"></p>
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. installation</p>
+
+```
+npm install
+```
+
+<p>2. build</p>
+
+```
+nest build
+```
+
+<p>3. build:all</p>
+
+```
+npm run build:dummyMS && npm run build:anotherDummyMS
+```
+
+<p>4. deploy</p>
+
+```
+npm install && npm run build:all && npx serverless deploy
+```
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+- nestjs
+- serverless
+- dynamoDB
+- aws
+- jest
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the \[MIT licensed\](LICENSE).
+
+<h2>🆘 Help:</h2>
+
+For any questions regarding this repository please contact the backend team.
+
+<p align="center">
+  <a href="help" target="blank"><img src="https://static.wikia.nocookie.net/fallout/images/7/78/FO4VW_Vault_poster_mUSt_win_clean.png/revision/latest?cb=20210415163042" width="200" alt="help" /></a>
+</p>
